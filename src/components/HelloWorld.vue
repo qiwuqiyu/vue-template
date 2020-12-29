@@ -1,5 +1,6 @@
 <template>
   <div class="hello">
+    <div class="test">测试</div>
     <h1>{{ msg }}</h1>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
@@ -41,6 +42,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.test{
+  font-size: 16px;
+}
+
 h3 {
   margin: 40px 0 0;
 }
